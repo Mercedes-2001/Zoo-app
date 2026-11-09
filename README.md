@@ -149,17 +149,21 @@ http://127.0.0.1:8000
 
 ## 📸 Screenshots
 
-Add screenshots of the application to showcase its interface and main functionalities.
+Login
+<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/a48827b9-6232-4c25-b802-0aee0296f890" />
 
-<!-- Add your screenshots below -->
+Register
+<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/62b47d1a-05d0-4bf2-9868-df9d8d11da5d" />
 
-Example:
+Menu
+<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/f714549b-1243-4864-b027-b49996507d60" />
+<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/62828a99-74aa-4831-8361-daf9f3a4c25b" />
 
-```markdown
-![Main Dashboard](screenshots/dashboard.png)
 
-![Records Management](screenshots/records.png)
-```
+
+
+
+
 
 ## 🔮 Future Improvements
 
@@ -176,8 +180,4 @@ Potential enhancements for future versions include:
 **Mercedes Rojas Ramos**
 
 - GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn Profile](YOUR_LINKEDIN_URL)
-
----
-
-*Developed as a web development project using Laravel, PHP, and MariaDB.*
+- LinkedIn: www.linkedin.com/in/mercedes-rojas-ramos
