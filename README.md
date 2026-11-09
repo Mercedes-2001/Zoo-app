@@ -159,6 +159,13 @@ Menu
 <img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/f714549b-1243-4864-b027-b49996507d60" />
 <img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/62828a99-74aa-4831-8361-daf9f3a4c25b" />
 
+Record
+<img width="1535" height="823" alt="Captura de pantalla 2026-11-08 185057" src="https://github.com/user-attachments/assets/53d02eb9-1364-499b-bfec-89acd8dccaa5" />
+
+Records overview
+<img width="1535" height="867" alt="Captura de pantalla 2026-11-08 185138" src="https://github.com/user-attachments/assets/dd6358a2-80ae-4f38-8f2a-5e957685319a" />
+
+
 
 
 
