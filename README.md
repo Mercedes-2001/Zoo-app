@@ -1,66 +1,183 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🦁 Zoo Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A web-based application designed to streamline zoo information management through a centralized platform. Developed with Laravel and PHP, the system provides CRUD (Create, Read, Update, and Delete) functionality, allowing users to efficiently manage zoo records.
 
-## About Laravel
+## 📋 Table of Contents
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- [About the Project](#-about-the-project)
+- [Features](#-features)
+- [Technologies](#-technologies)
+- [Project Structure](#-project-structure)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Usage](#-usage)
+- [Screenshots](#-screenshots)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📌 About the Project
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The Zoo Management System is a web application developed to facilitate the administration and organization of zoo records.
 
-## Learning Laravel
+The application implements the fundamental CRUD operations, enabling users to create, retrieve, update, and delete information through a user-friendly interface.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This project was developed to apply web development principles, database management, and the Laravel framework in a practical software development scenario.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## ✨ Features
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Create Records:** Register new information in the system.
+- **Read Records:** Retrieve and display existing information.
+- **Update Records:** Modify previously stored information.
+- **Delete Records:** Remove existing records from the database.
+- **Database Integration:** Manage and persist information using MariaDB.
+- **Responsive Interface:** User interface developed with Bootstrap.
 
-## Laravel Sponsors
+## 🛠️ Technologies
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+The project was developed using the following technologies:
 
-### Premium Partners
+| Technology | Purpose |
+|---|---|
+| PHP | Backend development |
+| Laravel | Backend framework |
+| HTML5 | Web page structure |
+| Bootstrap | Interface styling and responsive design |
+| JavaScript | Client-side functionality |
+| MariaDB | Relational database management |
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## 📂 Project Structure
 
-## Contributing
+The application follows Laravel's standard project architecture.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```text
+zoo-management-system/
+│
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+├── routes/
+├── storage/
+├── tests/
+├── .env.example
+├── artisan
+├── composer.json
+└── README.md
+```
 
-## Code of Conduct
+## 📋 Prerequisites
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Before installing the project, make sure you have the following tools installed:
 
-## Security Vulnerabilities
+- PHP (compatible with your Laravel version).
+- Composer.
+- MariaDB.
+- Node.js and NPM (if required by the project's frontend assets).
+- Git.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## ⚙️ Installation
 
-## License
+Follow these steps to set up the project locally.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**1. Clone the repository**
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd zoo-management-system
+```
+
+**3. Install PHP dependencies**
+
+```bash
+composer install
+```
+
+**4. Create the environment configuration file**
+
+```bash
+cp .env.example .env
+```
+
+**5. Generate the application key**
+
+```bash
+php artisan key:generate
+```
+
+## 🔧 Configuration
+
+Configure your database connection in the `.env` file:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=zoo_management
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+```
+
+Make sure your MariaDB database has been created before running the application.
+
+**Run database migrations:**
+
+```bash
+php artisan migrate
+```
+
+## 🚀 Usage
+
+Once the installation and configuration steps are complete, start the Laravel development server:
+
+```bash
+php artisan serve
+```
+
+Open your browser and navigate to:
+
+```text
+http://127.0.0.1:8000
+```
+
+## 📸 Screenshots
+
+Add screenshots of the application to showcase its interface and main functionalities.
+
+<!-- Add your screenshots below -->
+
+Example:
+
+```markdown
+![Main Dashboard](screenshots/dashboard.png)
+
+![Records Management](screenshots/records.png)
+```
+
+## 🔮 Future Improvements
+
+Potential enhancements for future versions include:
+
+- User authentication and role-based access control.
+- Advanced search and filtering functionality.
+- Improved dashboard and data visualization.
+- Additional validation and security mechanisms.
+- Deployment to a production environment.
+
+## 👨‍💻 Author
+
+**Mercedes Rojas Ramos**
+
+- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- LinkedIn: [Your LinkedIn Profile](YOUR_LINKEDIN_URL)
+
+---
+
+*Developed as a web development project using Laravel, PHP, and MariaDB.*
