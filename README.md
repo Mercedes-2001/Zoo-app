@@ -7,12 +7,12 @@ A web-based application designed to streamline zoo information management throug
 - [About the Project](#-about-the-project)
 - [Features](#-features)
 - [Technologies](#-technologies)
+- [Screenshots](#-screenshots)
 - [Project Structure](#-project-structure)
 - [Prerequisites](#-prerequisites)
 - [Installation](#-installation)
 - [Configuration](#-configuration)
 - [Usage](#-usage)
-- [Screenshots](#-screenshots)
 - [Future Improvements](#-future-improvements)
 - [Author](#-author)
 
@@ -45,6 +45,27 @@ The project was developed using the following technologies:
 | Bootstrap | Interface styling and responsive design |
 | JavaScript | Client-side functionality |
 | MariaDB | Relational database management |
+
+## 📸 Screenshots
+
+**Login**
+<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/a48827b9-6232-4c25-b802-0aee0296f890" />
+
+**Register**
+<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/62b47d1a-05d0-4bf2-9868-df9d8d11da5d" />
+
+**Menu**
+<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/991c39c9-09ed-4e22-b8b9-4166a70004b1" />
+<img width="1535" height="871" alt="image" src="https://github.com/user-attachments/assets/339b4bf7-cae2-4de9-ae0a-9139588b4bf3" />
+
+**Create record**
+<img width="1535" height="867" alt="image" src="https://github.com/user-attachments/assets/85f66680-18ff-4860-b1ed-dc8a463ae61c" />
+
+**Records overview**
+<img width="1533" height="872" alt="image" src="https://github.com/user-attachments/assets/6e5b738b-8ee2-4913-9982-86f2b53b0732" />
+
+**Record view**
+<img width="1535" height="870" alt="Captura de pantalla 2026-11-08 191626" src="https://github.com/user-attachments/assets/a0ff2f7a-28e4-40d8-bf70-397ba23f9716" />
 
 ## 📂 Project Structure
 
@@ -146,28 +167,6 @@ Open your browser and navigate to:
 ```text
 http://127.0.0.1:8000
 ```
-
-## 📸 Screenshots
-
-**Login**
-<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/a48827b9-6232-4c25-b802-0aee0296f890" />
-
-**Register**
-<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/62b47d1a-05d0-4bf2-9868-df9d8d11da5d" />
-
-**Menu**
-<img width="1535" height="870" alt="image" src="https://github.com/user-attachments/assets/991c39c9-09ed-4e22-b8b9-4166a70004b1" />
-<img width="1535" height="871" alt="image" src="https://github.com/user-attachments/assets/339b4bf7-cae2-4de9-ae0a-9139588b4bf3" />
-
-**Create record**
-<img width="1535" height="867" alt="image" src="https://github.com/user-attachments/assets/85f66680-18ff-4860-b1ed-dc8a463ae61c" />
-
-**Records overview**
-<img width="1533" height="872" alt="image" src="https://github.com/user-attachments/assets/6e5b738b-8ee2-4913-9982-86f2b53b0732" />
-
-**Record view**
-<img width="1535" height="870" alt="Captura de pantalla 2026-11-08 191626" src="https://github.com/user-attachments/assets/a0ff2f7a-28e4-40d8-bf70-397ba23f9716" />
-
 
 ## 🔮 Future Improvements
 
